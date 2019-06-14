@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 
 app.get('/', (req, res) => res.send('Hello server man!'))
 app.get('/test', (req, res) => res.send('test!'))
