@@ -6,6 +6,10 @@
     "license": "MIT",
     "author": "Microsoft",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
     }
 }
